@@ -26,7 +26,43 @@
     padding: 10px;
 }
 
+/* Navbar1 */
+.navbar-container li img{
+    width: 150px;
+}
 
     
 
 
+/* Navbar2 */
+#navbar2{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: fit-content;
+    background-color: #ffffff;
+    
+    
+}
+/* Navbar2 */
+.navbar2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+}
+
+/* Navbar2 */
+#navbar2 li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+/* Navbar2 */
+.navbar-container li img{
+    
+}
