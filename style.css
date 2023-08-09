@@ -84,7 +84,7 @@ body{
 
 .first{
     min-height: 600px;
-    
+    border-radius: 10px;
     background-color: #313131;   
     align-items: center; 
 
@@ -94,7 +94,7 @@ body{
 
 .image > img {
     background-repeat: no-repeat;
-    background-size: cover !important;
+    background-size: cover;
     min-height: 500px;
     align-items: center !important; 
     align-content: center;  
@@ -103,18 +103,34 @@ body{
 
 
 .second{
-    background-color: rgb(255,165,0);
-    border-radius: 15px;
+    background-color: orange;
+    border-radius: 25px;
     align-items: center;
-    max-height: 500px;
+    width: 430px;
+    
+    
+    
     
 }
 
 
-.second > img {
+.second-img > img {
+    width: 430px;
     background-repeat: no-repeat;
-    background-size: contain;    
+    background-size: cover;    
     
-    border: 2px solid rgb(191, 255, 0);
+    
 }
 
+.third{
+    border-radius: 10px;
+    background-color: #008ffd;   
+    align-items: center; 
+}
+
+.forth{
+    border-radius: 10px;
+    background-color: #008ffd;   
+    align-items: center; 
+
+}
