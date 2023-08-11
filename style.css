@@ -83,8 +83,8 @@ body{
 
 
 .first{
-    min-height: 600px;
-    border-radius: 10px;
+    min-height: 700px;
+    border-radius: 50px;
     background-color: #313131;   
     align-items: center; 
 
@@ -95,7 +95,7 @@ body{
 .image > img {
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 600px;
     align-items: center !important; 
     align-content: center;  
 }
@@ -117,6 +117,7 @@ body{
 
 .second-img > img {
     width: 430px;
+    border-radius: 50px;
     background-repeat: no-repeat;
     background-size: cover;    
     
@@ -124,11 +125,17 @@ body{
 }
 
 .third{
-    border-radius: 10px;
+    margin-top: 25px;
+    border-radius: 35px;
     background-color: #008ffd;   
     align-items: center; 
     width: 400px;
-    height: 450px;
+    height: 300px;
+}
+
+.third-image > img{
+    border-radius: 50px;
+
 }
 
 .forth{
